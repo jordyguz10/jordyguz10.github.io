@@ -1,48 +1,50 @@
 body{
-    background-color: lightgray;
-    color: black;
-    font-family: Tahoma;
-    line-height: 1.5em;
-    font-size: 16px;
+    background-color: lightgray; /*Sets Background color to lightgray*/
+    color: black;   /*Font color set to black*/
+    font-family: Tahoma; /*Font set to Tahoma*/
+    line-height: 1.5em; 
+    font-size: 16px; /*Sets font size of webpage */
     margin: 0;
 }
 
 .container{
-    width: 75%;
+    width: 75%;     /*width of each container set to 75%*/
     margin: auto;
     overflow: hidden;
 }
 #main-header{
-    background-color: black;
-    color: white;
+    background-color: black;    /*Background set to Black on main Header */
+    color: white;               /*White font for main header */
 }
+/* Customizes color and padding of side button */
 .button{
     background-color: lightskyblue;
     padding: 10px 15px;
     border: none;
     color: black;
-    position: fixed;
+    position: fixed;    /* Position of Button becomes fixed*/
     top: 400px;
 }
+/* Customizes color and padding of side button */
 .button2{
     background-color: lightskyblue;
     padding: 10px 15px;
     border: none;
     color: black;
-    position: fixed;
+    position: fixed;    /* Position of Button becomes fixed*/
     top: 400px;
     
 }
+/* Customizes color and padding of side button */
 .button3{
     background-color: lightskyblue;
     padding: 10px 15px;
     border: none;
     color: black;
-    position: fixed;
+    position: fixed;    /* Position of Button becomes fixed*/
     top: 450px;
-    
 }
-
+/* Navbar backgroudn set to light sky blue */
 #navbar{
     background-color: lightskyblue;
 }
@@ -50,25 +52,28 @@ body{
     padding:0;
     list-style: none;
 }
-
+/* Display Navbar list inline*/
 #navbar li{
     display: inline;
 }
-
+/* Customizing color and font size of navbar elements */
 #navbar a{
     color: black;
     padding-right: 15px;
     text-decoration: none;
     font-size: 18px;
 }
+/* Navbar font will highlight red when mouse is hovered over */
 #navbar a:hover{
     color:red;
 }
+/* Adjusting appearence of showcase section */
 #showcase{
     background-color: lightskyblue;
-    font-size: 20px;
+    font-size: 20px;    /* Font size set to 20px */
     line-height: 2.0em;
 }
+/* Adjusting postion of image and adding border around image */
 #AboutMe img{
     display: block;
     margin-left: auto;
@@ -80,9 +85,11 @@ body{
     box-sizing: border-box;
     padding: 10px;
 }
+/* Adding padding to the right of Heading elements of table*/
 #table thead tr th{
     padding-right: 50px;
 }
+/* Adds padding to bottom of each project section */
 #project1{
     padding-bottom: 50px
 }
@@ -92,20 +99,23 @@ body{
 #project3{
     padding-bottom: 50px
 }
+/* Adding border around project images */
 #project1 img{
     border: 4px solid skyblue;
 }
+/* Adding border around project images */
 #project2 img{
     border: 4px solid skyblue;
 }
+/* Adding border around project images */
 #project3 img{
     border: 4px solid skyblue;
 }
-
+/* Footer of webpage */
 #main-footer{
-    background: black;
+    background: black; /* Background of footer set to black */
     color:white;
-    padding:30px;
+    padding: 30px;
     text-align: center;
     margin-top: 50px;
 }
